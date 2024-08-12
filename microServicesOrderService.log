@@ -1,0 +1,437 @@
+2024-08-11T10:40:29.204+05:30  INFO 12228 --- [OrderServices] [restartedMain] c.y.O.OrderServicesApplication           : Starting OrderServicesApplication using Java 21.0.2 with PID 12228 (C:\Users\NEERAJ KUMAR\Downloads\FoodDeliveryPlatform\OrderServices\target\classes started by NEERAJ KUMAR in C:\Users\NEERAJ KUMAR\Downloads\FoodDeliveryPlatform)
+2024-08-11T10:40:29.210+05:30  INFO 12228 --- [OrderServices] [restartedMain] c.y.O.OrderServicesApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-08-11T10:40:29.282+05:30  INFO 12228 --- [OrderServices] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8084
+2024-08-11T10:40:29.283+05:30  INFO 12228 --- [OrderServices] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=OrderServices, profiles=[default], label=null, version=cf90b86381e14f4f996a6bb73ec0bca38c75835b, state=null
+2024-08-11T10:40:29.284+05:30  INFO 12228 --- [OrderServices] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-11T10:40:29.286+05:30  INFO 12228 --- [OrderServices] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-11T10:40:31.689+05:30  INFO 12228 --- [OrderServices] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-11T10:40:31.936+05:30  INFO 12228 --- [OrderServices] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 235 ms. Found 1 JPA repository interface.
+2024-08-11T10:40:33.296+05:30  INFO 12228 --- [OrderServices] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1eb18e84-a965-3b92-b939-95a18d0e6c56
+2024-08-11T10:40:34.259+05:30  WARN 12228 --- [OrderServices] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-08-11T10:40:34.275+05:30  WARN 12228 --- [OrderServices] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-08-11T10:40:35.538+05:30  INFO 12228 --- [OrderServices] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2024-08-11T10:40:35.560+05:30  INFO 12228 --- [OrderServices] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-11T10:40:35.561+05:30  INFO 12228 --- [OrderServices] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-11T10:40:35.656+05:30  INFO 12228 --- [OrderServices] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-11T10:40:35.657+05:30  INFO 12228 --- [OrderServices] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6371 ms
+2024-08-11T10:40:37.034+05:30  INFO 12228 --- [OrderServices] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-11T10:40:37.192+05:30  INFO 12228 --- [OrderServices] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-11T10:40:37.243+05:30  INFO 12228 --- [OrderServices] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-11T10:40:37.731+05:30  INFO 12228 --- [OrderServices] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-11T10:40:37.766+05:30  INFO 12228 --- [OrderServices] [restartedMain] com.zaxxer.hikari.HikariDataSource       : order_service - Starting...
+2024-08-11T10:40:38.325+05:30  INFO 12228 --- [OrderServices] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : order_service - Added connection com.mysql.cj.jdbc.ConnectionImpl@3c2635be
+2024-08-11T10:40:38.328+05:30  INFO 12228 --- [OrderServices] [restartedMain] com.zaxxer.hikari.HikariDataSource       : order_service - Start completed.
+2024-08-11T10:40:38.418+05:30  WARN 12228 --- [OrderServices] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-11T10:40:39.832+05:30  INFO 12228 --- [OrderServices] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-11T10:40:39.897+05:30  INFO 12228 --- [OrderServices] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-11T10:40:41.090+05:30  WARN 12228 --- [OrderServices] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-11T10:40:41.238+05:30  WARN 12228 --- [OrderServices] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-08-11T10:40:41.412+05:30  INFO 12228 --- [OrderServices] [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'RestaurantServices' URL not provided. Will try picking an instance via load-balancing.
+2024-08-11T10:40:44.479+05:30  INFO 12228 --- [OrderServices] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-08-11T10:40:44.589+05:30  WARN 12228 --- [OrderServices] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-08-11T10:40:44.781+05:30  INFO 12228 --- [OrderServices] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-08-11T10:40:44.898+05:30  INFO 12228 --- [OrderServices] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-08-11T10:40:44.934+05:30  INFO 12228 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-08-11T10:40:44.938+05:30  INFO 12228 --- [OrderServices] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-11T10:40:44.948+05:30  INFO 12228 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-08-11T10:40:44.948+05:30  INFO 12228 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-08-11T10:40:44.949+05:30  INFO 12228 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-08-11T10:40:44.949+05:30  INFO 12228 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-08-11T10:40:44.949+05:30  INFO 12228 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-08-11T10:40:44.949+05:30  INFO 12228 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-08-11T10:40:44.949+05:30  INFO 12228 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-08-11T10:40:45.366+05:30  INFO 12228 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-08-11T10:40:45.370+05:30  INFO 12228 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-08-11T10:40:45.373+05:30  INFO 12228 --- [OrderServices] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-08-11T10:40:45.374+05:30  INFO 12228 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1723353045374 with initial instances count: 6
+2024-08-11T10:40:45.388+05:30  INFO 12228 --- [OrderServices] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ORDERSERVICES with eureka with status UP
+2024-08-11T10:40:45.389+05:30  INFO 12228 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1723353045389, current=UP, previous=STARTING]
+2024-08-11T10:40:45.391+05:30  INFO 12228 --- [OrderServices] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDERSERVICES/NEERAJPC.mshome.net:OrderServices:8082: registering service...
+2024-08-11T10:40:45.450+05:30  INFO 12228 --- [OrderServices] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2024-08-11T10:40:45.453+05:30  INFO 12228 --- [OrderServices] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+2024-08-11T10:40:45.478+05:30  INFO 12228 --- [OrderServices] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDERSERVICES/NEERAJPC.mshome.net:OrderServices:8082 - registration status: 204
+2024-08-11T10:40:45.497+05:30  INFO 12228 --- [OrderServices] [restartedMain] c.y.O.OrderServicesApplication           : Started OrderServicesApplication in 20.817 seconds (process running for 22.121)
+2024-08-11T10:41:11.986+05:30  INFO 12228 --- [OrderServices] [http-nio-8082-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-11T10:41:11.987+05:30  INFO 12228 --- [OrderServices] [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-11T10:41:11.990+05:30  INFO 12228 --- [OrderServices] [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-08-11T10:41:30.846+05:30  INFO 12228 --- [OrderServices] [http-nio-8082-exec-4] c.y.O.c.CustomerOrderController          : this one request we have received for order creation
+ CustomerOrder(id=null, orderId=95, amount=95.0, transactionId=null, restaurantId=2, restaurantData=null)
+2024-08-11T10:41:31.667+05:30  INFO 12228 --- [OrderServices] [http-nio-8082-exec-4] c.y.O.c.CustomerOrderController          : this one we are returning after order creation
+ CustomerOrder(id=18, orderId=95, amount=95.0, transactionId=5afb69fa-6b0e-46b9-ba6c-761dfc8421cf, restaurantId=2, restaurantData=RestaurantData(name=again new Pizza Place, address=123 Main St, phoneNumber=555-1234, email=contact@pizzaplace.com, description=Best pizza in town, imageUrl=http://example.com/image.jpg))
+2024-08-11T10:43:40.625+05:30  INFO 12228 --- [OrderServices] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ORDERSERVICES with eureka with status DOWN
+2024-08-11T10:43:40.627+05:30  INFO 12228 --- [OrderServices] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1723353220627, current=DOWN, previous=UP]
+2024-08-11T10:43:40.627+05:30  INFO 12228 --- [OrderServices] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDERSERVICES/NEERAJPC.mshome.net:OrderServices:8082: registering service...
+2024-08-11T10:43:40.642+05:30  INFO 12228 --- [OrderServices] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDERSERVICES/NEERAJPC.mshome.net:OrderServices:8082 - registration status: 204
+2024-08-11T10:43:40.655+05:30  INFO 12228 --- [OrderServices] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-11T10:43:40.660+05:30  INFO 12228 --- [OrderServices] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : order_service - Shutdown initiated...
+2024-08-11T10:43:40.679+05:30  INFO 12228 --- [OrderServices] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : order_service - Shutdown completed.
+2024-08-11T10:43:40.681+05:30  INFO 12228 --- [OrderServices] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2024-08-11T10:43:43.684+05:30  INFO 12228 --- [OrderServices] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2024-08-11T10:43:43.704+05:30  INFO 12228 --- [OrderServices] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDERSERVICES/NEERAJPC.mshome.net:OrderServices:8082 - deregister  status: 200
+2024-08-11T10:43:43.705+05:30  INFO 12228 --- [OrderServices] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2024-08-11T10:43:51.183+05:30  INFO 21524 --- [OrderServices] [restartedMain] c.y.O.OrderServicesApplication           : Starting OrderServicesApplication using Java 21.0.2 with PID 21524 (C:\Users\NEERAJ KUMAR\Downloads\FoodDeliveryPlatform\OrderServices\target\classes started by NEERAJ KUMAR in C:\Users\NEERAJ KUMAR\Downloads\FoodDeliveryPlatform)
+2024-08-11T10:43:51.188+05:30  INFO 21524 --- [OrderServices] [restartedMain] c.y.O.OrderServicesApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-08-11T10:43:51.403+05:30  INFO 21524 --- [OrderServices] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8084
+2024-08-11T10:43:51.404+05:30  INFO 21524 --- [OrderServices] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=OrderServices, profiles=[default], label=null, version=cf90b86381e14f4f996a6bb73ec0bca38c75835b, state=null
+2024-08-11T10:43:51.407+05:30  INFO 21524 --- [OrderServices] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-11T10:43:51.407+05:30  INFO 21524 --- [OrderServices] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-11T10:43:54.394+05:30  INFO 21524 --- [OrderServices] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-11T10:43:54.725+05:30  INFO 21524 --- [OrderServices] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 321 ms. Found 1 JPA repository interface.
+2024-08-11T10:43:55.987+05:30  INFO 21524 --- [OrderServices] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1eb18e84-a965-3b92-b939-95a18d0e6c56
+2024-08-11T10:43:56.802+05:30  WARN 21524 --- [OrderServices] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-08-11T10:43:56.815+05:30  WARN 21524 --- [OrderServices] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-08-11T10:43:58.475+05:30  INFO 21524 --- [OrderServices] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2024-08-11T10:43:58.511+05:30  INFO 21524 --- [OrderServices] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-11T10:43:58.512+05:30  INFO 21524 --- [OrderServices] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-11T10:43:58.619+05:30  INFO 21524 --- [OrderServices] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-11T10:43:58.620+05:30  INFO 21524 --- [OrderServices] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7212 ms
+2024-08-11T10:44:00.402+05:30  INFO 21524 --- [OrderServices] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-11T10:44:00.517+05:30  INFO 21524 --- [OrderServices] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-11T10:44:00.579+05:30  INFO 21524 --- [OrderServices] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-11T10:44:00.991+05:30  INFO 21524 --- [OrderServices] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-11T10:44:01.030+05:30  INFO 21524 --- [OrderServices] [restartedMain] com.zaxxer.hikari.HikariDataSource       : order_service - Starting...
+2024-08-11T10:44:01.504+05:30  INFO 21524 --- [OrderServices] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : order_service - Added connection com.mysql.cj.jdbc.ConnectionImpl@2927ea6f
+2024-08-11T10:44:01.507+05:30  INFO 21524 --- [OrderServices] [restartedMain] com.zaxxer.hikari.HikariDataSource       : order_service - Start completed.
+2024-08-11T10:44:01.572+05:30  WARN 21524 --- [OrderServices] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-11T10:44:02.951+05:30  INFO 21524 --- [OrderServices] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-11T10:44:03.008+05:30  INFO 21524 --- [OrderServices] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-11T10:44:04.322+05:30  WARN 21524 --- [OrderServices] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-11T10:44:04.581+05:30  WARN 21524 --- [OrderServices] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-08-11T10:44:04.727+05:30  INFO 21524 --- [OrderServices] [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'RestaurantServices' URL not provided. Will try picking an instance via load-balancing.
+2024-08-11T10:44:08.767+05:30  INFO 21524 --- [OrderServices] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-08-11T10:44:08.913+05:30  WARN 21524 --- [OrderServices] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-08-11T10:44:08.951+05:30  INFO 21524 --- [OrderServices] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-08-11T10:44:09.124+05:30  INFO 21524 --- [OrderServices] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-08-11T10:44:09.161+05:30  INFO 21524 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-08-11T10:44:09.169+05:30  INFO 21524 --- [OrderServices] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-11T10:44:09.180+05:30  INFO 21524 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-08-11T10:44:09.180+05:30  INFO 21524 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-08-11T10:44:09.180+05:30  INFO 21524 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-08-11T10:44:09.180+05:30  INFO 21524 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-08-11T10:44:09.181+05:30  INFO 21524 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-08-11T10:44:09.181+05:30  INFO 21524 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-08-11T10:44:09.181+05:30  INFO 21524 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-08-11T10:44:09.735+05:30  INFO 21524 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-08-11T10:44:09.739+05:30  INFO 21524 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-08-11T10:44:09.744+05:30  INFO 21524 --- [OrderServices] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-08-11T10:44:09.746+05:30  INFO 21524 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1723353249745 with initial instances count: 6
+2024-08-11T10:44:09.766+05:30  INFO 21524 --- [OrderServices] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ORDERSERVICES with eureka with status UP
+2024-08-11T10:44:09.767+05:30  INFO 21524 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1723353249767, current=UP, previous=STARTING]
+2024-08-11T10:44:09.775+05:30  INFO 21524 --- [OrderServices] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDERSERVICES/NEERAJPC.mshome.net:OrderServices:8082: registering service...
+2024-08-11T10:44:09.865+05:30  INFO 21524 --- [OrderServices] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDERSERVICES/NEERAJPC.mshome.net:OrderServices:8082 - registration status: 204
+2024-08-11T10:44:09.874+05:30  INFO 21524 --- [OrderServices] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2024-08-11T10:44:09.875+05:30  INFO 21524 --- [OrderServices] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+2024-08-11T10:44:09.917+05:30  INFO 21524 --- [OrderServices] [restartedMain] c.y.O.OrderServicesApplication           : Started OrderServicesApplication in 22.41 seconds (process running for 23.63)
+2024-08-11T10:44:23.874+05:30  INFO 21524 --- [OrderServices] [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-11T10:44:23.875+05:30  INFO 21524 --- [OrderServices] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-11T10:44:23.880+05:30  INFO 21524 --- [OrderServices] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2024-08-11T10:44:44.004+05:30  INFO 21524 --- [OrderServices] [http-nio-8082-exec-4] c.y.O.c.CustomerOrderController          : this one request we have received for order creation
+ CustomerOrder(id=null, orderId=96, amount=96.0, transactionId=null, restaurantId=2, restaurantData=null)
+2024-08-11T10:44:44.429+05:30  INFO 21524 --- [OrderServices] [http-nio-8082-exec-4] c.y.O.c.CustomerOrderController          : this one we are returning after order creation
+ CustomerOrder(id=19, orderId=96, amount=96.0, transactionId=0dc351ff-47d6-4383-b5a4-cb47519606b6, restaurantId=2, restaurantData=RestaurantData(name=again new Pizza Place, address=123 Main St, phoneNumber=555-1234, email=contact@pizzaplace.com, description=Best pizza in town, imageUrl=http://example.com/image.jpg))
+2024-08-11T10:49:09.190+05:30  INFO 21524 --- [OrderServices] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-11T10:52:50.229+05:30  INFO 21524 --- [OrderServices] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ORDERSERVICES with eureka with status DOWN
+2024-08-11T10:52:50.231+05:30  INFO 21524 --- [OrderServices] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1723353770230, current=DOWN, previous=UP]
+2024-08-11T10:52:50.232+05:30  INFO 21524 --- [OrderServices] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDERSERVICES/NEERAJPC.mshome.net:OrderServices:8082: registering service...
+2024-08-11T10:52:50.295+05:30  INFO 21524 --- [OrderServices] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDERSERVICES/NEERAJPC.mshome.net:OrderServices:8082 - registration status: 204
+2024-08-11T10:52:50.388+05:30  INFO 21524 --- [OrderServices] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-11T10:52:50.417+05:30  INFO 21524 --- [OrderServices] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : order_service - Shutdown initiated...
+2024-08-11T10:52:50.466+05:30  INFO 21524 --- [OrderServices] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : order_service - Shutdown completed.
+2024-08-11T10:52:50.468+05:30  INFO 21524 --- [OrderServices] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2024-08-11T10:52:53.479+05:30  INFO 21524 --- [OrderServices] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2024-08-11T10:52:53.517+05:30  INFO 21524 --- [OrderServices] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDERSERVICES/NEERAJPC.mshome.net:OrderServices:8082 - deregister  status: 200
+2024-08-11T10:52:53.518+05:30  INFO 21524 --- [OrderServices] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2024-08-11T10:53:00.895+05:30  INFO 11276 --- [OrderServices] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8084
+2024-08-11T10:53:00.914+05:30  INFO 11276 --- [OrderServices] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=OrderServices, profiles=[default], label=null, version=cf90b86381e14f4f996a6bb73ec0bca38c75835b, state=null
+2024-08-11T10:53:00.972+05:30 ERROR 11276 --- [OrderServices] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level' to java.util.Map<java.lang.String, org.springframework.boot.logging.LogLevel>:
+
+    Property: logging.level
+    Value: "INFO"
+    Origin: class path resource [application.yml] - 32:10
+    Reason: org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [java.lang.String] to type [java.util.Map<java.lang.String, org.springframework.boot.logging.LogLevel>]
+
+Action:
+
+Update your application's configuration
+
+2024-08-11T10:54:05.928+05:30  INFO 24080 --- [OrderServices] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8084
+2024-08-11T10:54:05.945+05:30  INFO 24080 --- [OrderServices] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=OrderServices, profiles=[default], label=null, version=cf90b86381e14f4f996a6bb73ec0bca38c75835b, state=null
+2024-08-11T10:54:05.985+05:30 ERROR 24080 --- [OrderServices] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level' to java.util.Map<java.lang.String, org.springframework.boot.logging.LogLevel>:
+
+    Property: logging.level
+    Value: "INFO"
+    Origin: class path resource [application.yml] - 32:10
+    Reason: org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [java.lang.String] to type [java.util.Map<java.lang.String, org.springframework.boot.logging.LogLevel>]
+
+Action:
+
+Update your application's configuration
+
+2024-08-11T10:54:32.804+05:30  INFO 2508 --- [OrderServices] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8084
+2024-08-11T10:54:32.811+05:30  INFO 2508 --- [OrderServices] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=OrderServices, profiles=[default], label=null, version=cf90b86381e14f4f996a6bb73ec0bca38c75835b, state=null
+2024-08-11T10:54:32.848+05:30 ERROR 2508 --- [OrderServices] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level' to java.util.Map<java.lang.String, org.springframework.boot.logging.LogLevel>:
+
+    Property: logging.level
+    Value: "INFO"
+    Origin: class path resource [application.properties] - 17:15
+    Reason: org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [java.lang.String] to type [java.util.Map<java.lang.String, org.springframework.boot.logging.LogLevel>]
+
+Action:
+
+Update your application's configuration
+
+2024-08-11T10:54:59.317+05:30  INFO 6460 --- [OrderServices] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8084
+2024-08-11T10:54:59.324+05:30  INFO 6460 --- [OrderServices] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=OrderServices, profiles=[default], label=null, version=cf90b86381e14f4f996a6bb73ec0bca38c75835b, state=null
+2024-08-11T10:54:59.355+05:30 ERROR 6460 --- [OrderServices] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level' to java.util.Map<java.lang.String, org.springframework.boot.logging.LogLevel>:
+
+    Property: logging.level
+    Value: "INFO"
+    Origin: class path resource [application.properties] - 17:15
+    Reason: org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [java.lang.String] to type [java.util.Map<java.lang.String, org.springframework.boot.logging.LogLevel>]
+
+Action:
+
+Update your application's configuration
+
+2024-08-11T10:55:17.385+05:30  INFO 808 --- [OrderServices] [restartedMain] c.y.O.OrderServicesApplication           : Starting OrderServicesApplication using Java 21.0.2 with PID 808 (C:\Users\NEERAJ KUMAR\Downloads\FoodDeliveryPlatform\OrderServices\target\classes started by NEERAJ KUMAR in C:\Users\NEERAJ KUMAR\Downloads\FoodDeliveryPlatform)
+2024-08-11T10:55:17.388+05:30  INFO 808 --- [OrderServices] [restartedMain] c.y.O.OrderServicesApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-08-11T10:55:17.467+05:30  INFO 808 --- [OrderServices] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8084
+2024-08-11T10:55:17.468+05:30  INFO 808 --- [OrderServices] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=OrderServices, profiles=[default], label=null, version=cf90b86381e14f4f996a6bb73ec0bca38c75835b, state=null
+2024-08-11T10:55:17.470+05:30  INFO 808 --- [OrderServices] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-11T10:55:17.471+05:30  INFO 808 --- [OrderServices] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-11T10:55:19.217+05:30  INFO 808 --- [OrderServices] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-11T10:55:19.410+05:30  INFO 808 --- [OrderServices] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 180 ms. Found 1 JPA repository interface.
+2024-08-11T10:55:20.000+05:30  INFO 808 --- [OrderServices] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1eb18e84-a965-3b92-b939-95a18d0e6c56
+2024-08-11T10:55:20.618+05:30  WARN 808 --- [OrderServices] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-08-11T10:55:20.627+05:30  WARN 808 --- [OrderServices] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-08-11T10:55:21.559+05:30  INFO 808 --- [OrderServices] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2024-08-11T10:55:21.576+05:30  INFO 808 --- [OrderServices] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-11T10:55:21.576+05:30  INFO 808 --- [OrderServices] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-11T10:55:21.657+05:30  INFO 808 --- [OrderServices] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-11T10:55:21.658+05:30  INFO 808 --- [OrderServices] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4186 ms
+2024-08-11T10:55:22.468+05:30  INFO 808 --- [OrderServices] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-11T10:55:22.566+05:30  INFO 808 --- [OrderServices] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-11T10:55:22.618+05:30  INFO 808 --- [OrderServices] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-11T10:55:23.071+05:30  INFO 808 --- [OrderServices] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-11T10:55:23.110+05:30  INFO 808 --- [OrderServices] [restartedMain] com.zaxxer.hikari.HikariDataSource       : order_service - Starting...
+2024-08-11T10:55:23.608+05:30  INFO 808 --- [OrderServices] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : order_service - Added connection com.mysql.cj.jdbc.ConnectionImpl@21d31a5
+2024-08-11T10:55:23.611+05:30  INFO 808 --- [OrderServices] [restartedMain] com.zaxxer.hikari.HikariDataSource       : order_service - Start completed.
+2024-08-11T10:55:23.689+05:30  WARN 808 --- [OrderServices] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-11T10:55:24.762+05:30  INFO 808 --- [OrderServices] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-11T10:55:24.833+05:30  INFO 808 --- [OrderServices] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-11T10:55:25.577+05:30  WARN 808 --- [OrderServices] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-11T10:55:25.688+05:30  WARN 808 --- [OrderServices] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-08-11T10:55:25.799+05:30  INFO 808 --- [OrderServices] [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'RestaurantServices' URL not provided. Will try picking an instance via load-balancing.
+2024-08-11T10:55:28.118+05:30  INFO 808 --- [OrderServices] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-08-11T10:55:28.209+05:30  WARN 808 --- [OrderServices] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-08-11T10:55:28.243+05:30  INFO 808 --- [OrderServices] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-08-11T10:55:28.351+05:30  INFO 808 --- [OrderServices] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-08-11T10:55:28.403+05:30  INFO 808 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-08-11T10:55:28.408+05:30  INFO 808 --- [OrderServices] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-11T10:55:28.418+05:30  INFO 808 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-08-11T10:55:28.418+05:30  INFO 808 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-08-11T10:55:28.418+05:30  INFO 808 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-08-11T10:55:28.418+05:30  INFO 808 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-08-11T10:55:28.418+05:30  INFO 808 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-08-11T10:55:28.419+05:30  INFO 808 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-08-11T10:55:28.419+05:30  INFO 808 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-08-11T10:55:28.824+05:30  INFO 808 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-08-11T10:55:28.827+05:30  INFO 808 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-08-11T10:55:28.829+05:30  INFO 808 --- [OrderServices] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-08-11T10:55:28.831+05:30  INFO 808 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1723353928831 with initial instances count: 6
+2024-08-11T10:55:28.849+05:30  INFO 808 --- [OrderServices] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ORDERSERVICES with eureka with status UP
+2024-08-11T10:55:28.850+05:30  INFO 808 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1723353928850, current=UP, previous=STARTING]
+2024-08-11T10:55:28.854+05:30  INFO 808 --- [OrderServices] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDERSERVICES/NEERAJPC.mshome.net:OrderServices:8082: registering service...
+2024-08-11T10:55:28.909+05:30  INFO 808 --- [OrderServices] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2024-08-11T10:55:28.913+05:30  INFO 808 --- [OrderServices] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+2024-08-11T10:55:28.927+05:30  INFO 808 --- [OrderServices] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDERSERVICES/NEERAJPC.mshome.net:OrderServices:8082 - registration status: 204
+2024-08-11T10:55:28.950+05:30  INFO 808 --- [OrderServices] [restartedMain] c.y.O.OrderServicesApplication           : Started OrderServicesApplication in 14.358 seconds (process running for 15.256)
+2024-08-11T10:55:46.416+05:30  INFO 808 --- [OrderServices] [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-11T10:55:46.416+05:30  INFO 808 --- [OrderServices] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-11T10:55:46.416+05:30  INFO 808 --- [OrderServices] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-08-11T10:56:04.311+05:30  INFO 808 --- [OrderServices] [http-nio-8082-exec-4] c.y.O.c.CustomerOrderController          : this one request we have received for order creation
+ CustomerOrder(id=null, orderId=97, amount=97.0, transactionId=null, restaurantId=1, restaurantData=null)
+2024-08-11T10:56:06.006+05:30  INFO 808 --- [OrderServices] [http-nio-8082-exec-4] c.y.O.c.CustomerOrderController          : this one we are returning after order creation
+ CustomerOrder(id=20, orderId=97, amount=97.0, transactionId=9f0c9d54-e4c3-4c4a-8b63-098976d7feb5, restaurantId=1, restaurantData=RestaurantData(name=new Pizza Place, address=123 Main St, phoneNumber=555-1234, email=contact@pizzaplace.com, description=Best pizza in town, imageUrl=http://example.com/image.jpg))
+2024-08-11T11:00:28.428+05:30  INFO 808 --- [OrderServices] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-11T11:05:28.438+05:30  INFO 808 --- [OrderServices] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-11T11:05:57.298+05:30  INFO 808 --- [OrderServices] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ORDERSERVICES with eureka with status DOWN
+2024-08-11T11:05:57.300+05:30  INFO 808 --- [OrderServices] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1723354557300, current=DOWN, previous=UP]
+2024-08-11T11:05:57.302+05:30  INFO 808 --- [OrderServices] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDERSERVICES/NEERAJPC.mshome.net:OrderServices:8082: registering service...
+2024-08-11T11:05:57.346+05:30  INFO 808 --- [OrderServices] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDERSERVICES/NEERAJPC.mshome.net:OrderServices:8082 - registration status: 204
+2024-08-11T11:05:57.422+05:30  INFO 808 --- [OrderServices] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-11T11:05:57.453+05:30  INFO 808 --- [OrderServices] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : order_service - Shutdown initiated...
+2024-08-11T11:05:57.498+05:30  INFO 808 --- [OrderServices] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : order_service - Shutdown completed.
+2024-08-11T11:05:57.503+05:30  INFO 808 --- [OrderServices] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2024-08-11T11:06:00.506+05:30  INFO 808 --- [OrderServices] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2024-08-11T11:06:00.506+05:30  WARN 808 --- [OrderServices] [DiscoveryClient-%d] c.netflix.discovery.TimedSupervisorTask  : task supervisor shutting down, can't accept the task
+2024-08-11T11:06:00.528+05:30  INFO 808 --- [OrderServices] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDERSERVICES/NEERAJPC.mshome.net:OrderServices:8082 - deregister  status: 200
+2024-08-11T11:06:00.530+05:30  INFO 808 --- [OrderServices] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2024-08-11T11:06:09.635+05:30  INFO 18304 --- [OrderServices] [restartedMain] c.y.O.OrderServicesApplication           : Starting OrderServicesApplication using Java 21.0.2 with PID 18304 (C:\Users\NEERAJ KUMAR\Downloads\FoodDeliveryPlatform\OrderServices\target\classes started by NEERAJ KUMAR in C:\Users\NEERAJ KUMAR\Downloads\FoodDeliveryPlatform)
+2024-08-11T11:06:09.638+05:30  INFO 18304 --- [OrderServices] [restartedMain] c.y.O.OrderServicesApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-08-11T11:06:09.794+05:30  INFO 18304 --- [OrderServices] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8084
+2024-08-11T11:06:09.794+05:30  INFO 18304 --- [OrderServices] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=OrderServices, profiles=[default], label=null, version=cf90b86381e14f4f996a6bb73ec0bca38c75835b, state=null
+2024-08-11T11:06:09.798+05:30  INFO 18304 --- [OrderServices] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-11T11:06:09.798+05:30  INFO 18304 --- [OrderServices] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-11T11:06:11.591+05:30  INFO 18304 --- [OrderServices] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-11T11:06:11.743+05:30  INFO 18304 --- [OrderServices] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 139 ms. Found 1 JPA repository interface.
+2024-08-11T11:06:12.387+05:30  INFO 18304 --- [OrderServices] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1eb18e84-a965-3b92-b939-95a18d0e6c56
+2024-08-11T11:06:12.955+05:30  WARN 18304 --- [OrderServices] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-08-11T11:06:12.963+05:30  WARN 18304 --- [OrderServices] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-08-11T11:06:13.888+05:30  INFO 18304 --- [OrderServices] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2024-08-11T11:06:13.908+05:30  INFO 18304 --- [OrderServices] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-11T11:06:13.908+05:30  INFO 18304 --- [OrderServices] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-11T11:06:14.017+05:30  INFO 18304 --- [OrderServices] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-11T11:06:14.019+05:30  INFO 18304 --- [OrderServices] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4220 ms
+2024-08-11T11:06:14.901+05:30  INFO 18304 --- [OrderServices] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-11T11:06:14.992+05:30  INFO 18304 --- [OrderServices] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-11T11:06:15.057+05:30  INFO 18304 --- [OrderServices] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-11T11:06:15.617+05:30  INFO 18304 --- [OrderServices] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-11T11:06:15.676+05:30  INFO 18304 --- [OrderServices] [restartedMain] com.zaxxer.hikari.HikariDataSource       : order_service - Starting...
+2024-08-11T11:06:16.247+05:30  INFO 18304 --- [OrderServices] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : order_service - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c6b9c61
+2024-08-11T11:06:16.250+05:30  INFO 18304 --- [OrderServices] [restartedMain] com.zaxxer.hikari.HikariDataSource       : order_service - Start completed.
+2024-08-11T11:06:16.329+05:30  WARN 18304 --- [OrderServices] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-11T11:06:17.578+05:30  INFO 18304 --- [OrderServices] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-11T11:06:17.646+05:30  INFO 18304 --- [OrderServices] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-11T11:06:18.386+05:30  WARN 18304 --- [OrderServices] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-11T11:06:18.497+05:30  WARN 18304 --- [OrderServices] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-08-11T11:06:18.594+05:30  INFO 18304 --- [OrderServices] [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'RestaurantServices' URL not provided. Will try picking an instance via load-balancing.
+2024-08-11T11:06:21.151+05:30  INFO 18304 --- [OrderServices] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-08-11T11:06:21.242+05:30  WARN 18304 --- [OrderServices] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-08-11T11:06:21.281+05:30  INFO 18304 --- [OrderServices] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-08-11T11:06:21.426+05:30  INFO 18304 --- [OrderServices] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-08-11T11:06:21.469+05:30  INFO 18304 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-08-11T11:06:21.474+05:30  INFO 18304 --- [OrderServices] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-11T11:06:21.487+05:30  INFO 18304 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-08-11T11:06:21.487+05:30  INFO 18304 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-08-11T11:06:21.487+05:30  INFO 18304 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-08-11T11:06:21.487+05:30  INFO 18304 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-08-11T11:06:21.488+05:30  INFO 18304 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-08-11T11:06:21.488+05:30  INFO 18304 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-08-11T11:06:21.488+05:30  INFO 18304 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-08-11T11:06:21.942+05:30  INFO 18304 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-08-11T11:06:21.946+05:30  INFO 18304 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-08-11T11:06:21.949+05:30  INFO 18304 --- [OrderServices] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-08-11T11:06:21.951+05:30  INFO 18304 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1723354581950 with initial instances count: 7
+2024-08-11T11:06:21.968+05:30  INFO 18304 --- [OrderServices] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ORDERSERVICES with eureka with status UP
+2024-08-11T11:06:21.968+05:30  INFO 18304 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1723354581968, current=UP, previous=STARTING]
+2024-08-11T11:06:21.971+05:30  INFO 18304 --- [OrderServices] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDERSERVICES/NEERAJPC.mshome.net:OrderServices:8082: registering service...
+2024-08-11T11:06:22.010+05:30  INFO 18304 --- [OrderServices] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2024-08-11T11:06:22.012+05:30  INFO 18304 --- [OrderServices] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+2024-08-11T11:06:22.072+05:30  INFO 18304 --- [OrderServices] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDERSERVICES/NEERAJPC.mshome.net:OrderServices:8082 - registration status: 204
+2024-08-11T11:06:22.100+05:30  INFO 18304 --- [OrderServices] [restartedMain] c.y.O.OrderServicesApplication           : Started OrderServicesApplication in 18.064 seconds (process running for 19.235)
+2024-08-11T11:06:47.560+05:30  INFO 18304 --- [OrderServices] [http-nio-8082-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-11T11:06:47.560+05:30  INFO 18304 --- [OrderServices] [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-11T11:06:47.562+05:30  INFO 18304 --- [OrderServices] [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-08-11T11:07:54.862+05:30  INFO 18304 --- [OrderServices] [http-nio-8082-exec-6] c.y.O.c.CustomerOrderController          : this one request we have received for order creation
+ CustomerOrder(id=null, orderId=98, amount=98.0, transactionId=null, restaurantId=2, restaurantData=null)
+2024-08-11T11:07:56.412+05:30  INFO 18304 --- [OrderServices] [http-nio-8082-exec-6] c.y.O.c.CustomerOrderController          : this one we are returning after order creation
+ CustomerOrder(id=21, orderId=98, amount=98.0, transactionId=34ffb36d-a867-466c-85f3-4b2b0f2f8593, restaurantId=2, restaurantData=RestaurantData(name=again new Pizza Place, address=123 Main St, phoneNumber=555-1234, email=contact@pizzaplace.com, description=Best pizza in town, imageUrl=http://example.com/image.jpg))
+2024-08-11T11:11:21.493+05:30  INFO 18304 --- [OrderServices] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-11T11:12:02.175+05:30  INFO 18304 --- [OrderServices] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ORDERSERVICES with eureka with status DOWN
+2024-08-11T11:12:02.177+05:30  INFO 18304 --- [OrderServices] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1723354922177, current=DOWN, previous=UP]
+2024-08-11T11:12:02.177+05:30  INFO 18304 --- [OrderServices] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDERSERVICES/NEERAJPC.mshome.net:OrderServices:8082: registering service...
+2024-08-11T11:12:02.206+05:30  INFO 18304 --- [OrderServices] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDERSERVICES/NEERAJPC.mshome.net:OrderServices:8082 - registration status: 204
+2024-08-11T11:12:02.222+05:30  INFO 18304 --- [OrderServices] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-11T11:12:02.233+05:30  INFO 18304 --- [OrderServices] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : order_service - Shutdown initiated...
+2024-08-11T11:12:02.260+05:30  INFO 18304 --- [OrderServices] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : order_service - Shutdown completed.
+2024-08-11T11:12:02.262+05:30  INFO 18304 --- [OrderServices] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2024-08-11T11:12:05.273+05:30  INFO 18304 --- [OrderServices] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2024-08-11T11:12:05.297+05:30  INFO 18304 --- [OrderServices] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDERSERVICES/NEERAJPC.mshome.net:OrderServices:8082 - deregister  status: 200
+2024-08-11T11:12:05.298+05:30  INFO 18304 --- [OrderServices] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2024-08-11T11:16:28.426+05:30  INFO 16524 --- [OrderServices] [restartedMain] c.y.O.OrderServicesApplication           : Starting OrderServicesApplication using Java 21.0.2 with PID 16524 (C:\Users\NEERAJ KUMAR\Downloads\FoodDeliveryPlatform\OrderServices\target\classes started by NEERAJ KUMAR in C:\Users\NEERAJ KUMAR\Downloads\FoodDeliveryPlatform)
+2024-08-11T11:16:28.429+05:30  INFO 16524 --- [OrderServices] [restartedMain] c.y.O.OrderServicesApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-08-11T11:16:28.514+05:30  INFO 16524 --- [OrderServices] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8084
+2024-08-11T11:16:28.514+05:30  INFO 16524 --- [OrderServices] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=OrderServices, profiles=[default], label=null, version=cf90b86381e14f4f996a6bb73ec0bca38c75835b, state=null
+2024-08-11T11:16:28.517+05:30  INFO 16524 --- [OrderServices] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-11T11:16:28.518+05:30  INFO 16524 --- [OrderServices] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-11T11:16:30.170+05:30  INFO 16524 --- [OrderServices] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-11T11:16:30.339+05:30  INFO 16524 --- [OrderServices] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 158 ms. Found 1 JPA repository interface.
+2024-08-11T11:16:30.931+05:30  INFO 16524 --- [OrderServices] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1eb18e84-a965-3b92-b939-95a18d0e6c56
+2024-08-11T11:16:31.523+05:30  WARN 16524 --- [OrderServices] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-08-11T11:16:31.533+05:30  WARN 16524 --- [OrderServices] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-08-11T11:16:32.368+05:30  INFO 16524 --- [OrderServices] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2024-08-11T11:16:32.386+05:30  INFO 16524 --- [OrderServices] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-11T11:16:32.388+05:30  INFO 16524 --- [OrderServices] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-11T11:16:32.473+05:30  INFO 16524 --- [OrderServices] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-11T11:16:32.474+05:30  INFO 16524 --- [OrderServices] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3954 ms
+2024-08-11T11:16:33.307+05:30  INFO 16524 --- [OrderServices] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-11T11:16:33.385+05:30  INFO 16524 --- [OrderServices] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-11T11:16:33.432+05:30  INFO 16524 --- [OrderServices] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-11T11:16:33.818+05:30  INFO 16524 --- [OrderServices] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-11T11:16:33.850+05:30  INFO 16524 --- [OrderServices] [restartedMain] com.zaxxer.hikari.HikariDataSource       : order_service - Starting...
+2024-08-11T11:16:34.339+05:30  INFO 16524 --- [OrderServices] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : order_service - Added connection com.mysql.cj.jdbc.ConnectionImpl@1d1e8873
+2024-08-11T11:16:34.341+05:30  INFO 16524 --- [OrderServices] [restartedMain] com.zaxxer.hikari.HikariDataSource       : order_service - Start completed.
+2024-08-11T11:16:34.426+05:30  WARN 16524 --- [OrderServices] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-11T11:16:35.649+05:30  INFO 16524 --- [OrderServices] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-11T11:16:35.799+05:30  INFO 16524 --- [OrderServices] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-11T11:16:36.765+05:30  WARN 16524 --- [OrderServices] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-11T11:16:36.929+05:30  WARN 16524 --- [OrderServices] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-08-11T11:16:37.066+05:30  INFO 16524 --- [OrderServices] [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'RestaurantServices' URL not provided. Will try picking an instance via load-balancing.
+2024-08-11T11:16:40.117+05:30  INFO 16524 --- [OrderServices] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-08-11T11:16:40.376+05:30  WARN 16524 --- [OrderServices] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-08-11T11:16:40.468+05:30  INFO 16524 --- [OrderServices] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-08-11T11:16:40.568+05:30  INFO 16524 --- [OrderServices] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-08-11T11:16:40.616+05:30  INFO 16524 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-08-11T11:16:40.634+05:30  INFO 16524 --- [OrderServices] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-11T11:16:40.659+05:30  INFO 16524 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-08-11T11:16:40.659+05:30  INFO 16524 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-08-11T11:16:40.659+05:30  INFO 16524 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-08-11T11:16:40.659+05:30  INFO 16524 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-08-11T11:16:40.659+05:30  INFO 16524 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-08-11T11:16:40.659+05:30  INFO 16524 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-08-11T11:16:40.660+05:30  INFO 16524 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-08-11T11:16:41.079+05:30  INFO 16524 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-08-11T11:16:41.081+05:30  INFO 16524 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-08-11T11:16:41.084+05:30  INFO 16524 --- [OrderServices] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-08-11T11:16:41.085+05:30  INFO 16524 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1723355201085 with initial instances count: 6
+2024-08-11T11:16:41.114+05:30  INFO 16524 --- [OrderServices] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ORDERSERVICES with eureka with status UP
+2024-08-11T11:16:41.115+05:30  INFO 16524 --- [OrderServices] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1723355201115, current=UP, previous=STARTING]
+2024-08-11T11:16:41.118+05:30  INFO 16524 --- [OrderServices] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDERSERVICES/NEERAJPC.mshome.net:OrderServices:8082: registering service...
+2024-08-11T11:16:41.157+05:30  INFO 16524 --- [OrderServices] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2024-08-11T11:16:41.159+05:30  INFO 16524 --- [OrderServices] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+2024-08-11T11:16:41.202+05:30  INFO 16524 --- [OrderServices] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDERSERVICES/NEERAJPC.mshome.net:OrderServices:8082 - registration status: 204
+2024-08-11T11:16:41.206+05:30  INFO 16524 --- [OrderServices] [restartedMain] c.y.O.OrderServicesApplication           : Started OrderServicesApplication in 16.343 seconds (process running for 17.313)
+2024-08-11T11:17:18.330+05:30  INFO 16524 --- [OrderServices] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ORDERSERVICES with eureka with status DOWN
+2024-08-11T11:17:18.331+05:30  INFO 16524 --- [OrderServices] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1723355238331, current=DOWN, previous=UP]
+2024-08-11T11:17:18.331+05:30  INFO 16524 --- [OrderServices] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDERSERVICES/NEERAJPC.mshome.net:OrderServices:8082: registering service...
+2024-08-11T11:17:18.350+05:30  INFO 16524 --- [OrderServices] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDERSERVICES/NEERAJPC.mshome.net:OrderServices:8082 - registration status: 204
+2024-08-11T11:17:18.355+05:30  INFO 16524 --- [OrderServices] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-11T11:17:18.360+05:30  INFO 16524 --- [OrderServices] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : order_service - Shutdown initiated...
+2024-08-11T11:17:18.378+05:30  INFO 16524 --- [OrderServices] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : order_service - Shutdown completed.
+2024-08-11T11:17:18.379+05:30  INFO 16524 --- [OrderServices] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2024-08-11T11:17:21.392+05:30  INFO 16524 --- [OrderServices] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2024-08-11T11:17:21.421+05:30  INFO 16524 --- [OrderServices] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDERSERVICES/NEERAJPC.mshome.net:OrderServices:8082 - deregister  status: 200
+2024-08-11T11:17:21.421+05:30  INFO 16524 --- [OrderServices] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient

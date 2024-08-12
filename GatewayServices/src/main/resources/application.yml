@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: CustomerServices
+          uri: lb://customer-service
+          predicates:
+            - Path=/customers/**
+          filters: AuthenticationFilter
